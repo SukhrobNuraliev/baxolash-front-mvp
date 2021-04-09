@@ -48,7 +48,7 @@
                 </div>
                 <div>
                   <nuxt-link class="bg-indigo-500 focus:outline-none font-medium hover:bg-indigo-600 hover:shadow-lg inline-block leading-6 ml-5 nuxt-link-active pl-8 pr-8 px-6 py-2 ripple rounded shadow text-center text-white text-xs transition uppercase waves-effect"
-                             to="/farmon-create">
+                             to="/farmonlar/create">
                     Farmon Qo'shish
                   </nuxt-link>
                 </div>

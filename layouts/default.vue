@@ -26,17 +26,23 @@
                       Bosh Sahifa
                     </nuxt-link>
 
-                    <nuxt-link class="flex items-center mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100" to="/farmonlar">
-                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                              d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z">
-                          </path>
-                      </svg>
+                    <nuxt-link class="flex items-center mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100"
+                               to="/farmonlar">
+<!--                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"-->
+<!--                          stroke="currentColor">-->
+<!--                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"-->
+<!--                              d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z">-->
+<!--                          </path>-->
+<!--                      </svg>-->
+<!--                      <svg class="icon icon-radio-unchecked"><use xlink:href="#icon-radio-unchecked"></use></svg>-->
+                      <symbol id="icon-radio-unchecked" viewBox="0 0 32 32">
+<path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 28c-6.627 0-12-5.373-12-12s5.373-12 12-12c6.627 0 12 5.373 12 12s-5.373 12-12 12z"></path>
+</symbol>
                       Farmonlar
                     </nuxt-link>
 
-                    <nuxt-link class="flex items-center mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100" to="/ilovalar">
+                    <nuxt-link class="flex items-center mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100"
+                               to="/ilovalar">
                       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                           stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -46,7 +52,8 @@
                       Ilovalar
                     </nuxt-link>
 
-                    <nuxt-link class="flex items-center mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100" to="/bandlar">
+                    <nuxt-link class="flex items-center mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100"
+                               to="/bandlar">
                       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                           stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -123,11 +130,22 @@
 </template>
 
 <style>
-
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
 </style>
 
 <script>
 export default {
-
+  data() {
+    return {
+      sidebarOpen: true,
+    }
+  }
 }
 </script>
