@@ -18,7 +18,8 @@ export default {
     ],
     script: [
       {
-        scr: 'https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js'
+        scr: 'https://kit.fontawesome.com/46e7ccad5c.js',
+        // crossorigin: "anonymous"
       }
     ]
   },

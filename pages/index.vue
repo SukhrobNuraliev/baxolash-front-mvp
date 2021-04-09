@@ -1,7 +1,7 @@
 <template>
   <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200">
                 <div class="container mx-auto px-6 py-8">
-                    <h3 class="text-gray-700 text-3xl font-medium">Dashboard</h3>
+                    <h3 class="text-gray-700 text-3xl font-medium">Monitoring</h3>
 
                     <div class="mt-4">
                         <div class="flex flex-wrap -mx-6">
@@ -32,29 +32,21 @@
                                     </div>
 
                                     <div class="mx-5">
-                                        <h4 class="text-2xl font-semibold text-gray-700">8,282</h4>
-                                        <div class="text-gray-500">New Users</div>
+                                        <h4 class="text-2xl font-semibold text-gray-700">282</h4>
+                                        <div class="text-gray-500">Foydalanuvchilar</div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="w-full mt-6 px-6 sm:w-1/2 xl:w-1/3 sm:mt-0">
+                            <div class="w-full mt-6 px-6 sm:w-1/2 xl:w-1/3 xl:mt-0">
                                 <div class="flex items-center px-5 py-6 shadow-sm rounded-md bg-white">
-                                    <div class="p-3 rounded-full bg-orange-600 bg-opacity-75">
-                                      <svg class="svg-icon" viewBox="0 0 20 20">
-                                        <path fill="none" d="M12.871,9.337H7.377c-0.304,0-0.549,0.246-0.549,0.549c0,0.303,0.246,0.55,0.549,0.55h5.494
-                                          c0.305,0,0.551-0.247,0.551-0.55C13.422,9.583,13.176,9.337,12.871,9.337z M15.07,6.04H5.179c-0.304,0-0.549,0.246-0.549,0.55
-                                          c0,0.303,0.246,0.549,0.549,0.549h9.891c0.303,0,0.549-0.247,0.549-0.549C15.619,6.286,15.373,6.04,15.07,6.04z M17.268,1.645
-                                          H2.981c-0.911,0-1.648,0.738-1.648,1.648v10.988c0,0.912,0.738,1.648,1.648,1.648h4.938l2.205,2.205l2.206-2.205h4.938
-                                          c0.91,0,1.648-0.736,1.648-1.648V3.293C18.916,2.382,18.178,1.645,17.268,1.645z M17.816,13.732c0,0.607-0.492,1.1-1.098,1.1
-                                          h-4.939l-1.655,1.654l-1.656-1.654H3.531c-0.607,0-1.099-0.492-1.099-1.1v-9.89c0-0.607,0.492-1.099,1.099-1.099h13.188
-                                          c0.605,0,1.098,0.492,1.098,1.099V13.732z"></path>
-                                      </svg>
+                                    <div class="p-3 rounded-full bg-green-400 bg-opacity-75">
+                                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAaElEQVRYhe2XQQrAIAwEo/T/X9arWhpWDV2UnatCwmSDaCbIJOes/FErBxeZ5gHueJYQXJN0A/QGkBG0fOlcHtNxBnYD+YJuQA1EbcEInJXjDNy3BcqAMqDXUBmgN4CMIPp/0EE3IOhUB20HS//FL6IAAAAASUVORK5CYII="/>
                                     </div>
 
                                     <div class="mx-5">
-                                        <h4 class="text-2xl font-semibold text-gray-700">200,521</h4>
-                                        <div class="text-gray-500">Total Orders</div>
+                                        <h4 class="text-2xl font-semibold text-gray-700">542</h4>
+                                        <div class="text-gray-500">Ilovalar</div>
                                     </div>
                                 </div>
                             </div>
@@ -62,19 +54,12 @@
                             <div class="w-full mt-6 px-6 sm:w-1/2 xl:w-1/3 xl:mt-0">
                                 <div class="flex items-center px-5 py-6 shadow-sm rounded-md bg-white">
                                     <div class="p-3 rounded-full bg-pink-600 bg-opacity-75">
-                                        <svg class="h-8 w-8 text-white" viewBox="0 0 28 28" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M6.99998 11.2H21L22.4 23.8H5.59998L6.99998 11.2Z" fill="currentColor"
-                                                stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
-                                            <path
-                                                d="M9.79999 8.4C9.79999 6.08041 11.6804 4.2 14 4.2C16.3196 4.2 18.2 6.08041 18.2 8.4V12.6C18.2 14.9197 16.3196 16.8 14 16.8C11.6804 16.8 9.79999 14.9197 9.79999 12.6V8.4Z"
-                                                stroke="currentColor" stroke-width="2"></path>
-                                        </svg>
+                                      <img class="w-8" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAACVklEQVR4nO2bMUsjQRTHf4hcpZZ6sfPQGOTuCkH9ANfbWnjdid9B9MvIGbk6XHfqB1ArtTrQ5jCYQiNopSFabELGsOFm1zfzFn0/GBiWnff+89/NTF7IgGEYGRkDtoBj4B54Um73wBGw2dEWlCWgrjRRn3YJLIaafAW4LcAk/9eawGwIAw6cJNfAD6AUIlFGSsAacENP3550kjkn+COwIJ1AgHnggZ5O0bdg3QlckwwszG96Otd8Bgx5Bh53+mcZRcXkxOl/9Bnga8Cw03/wlhMfV9vwwLscfA14s5gBEXKUgQuy7+fnwExocTEMWAamcoz71BkblBgG1EieZlbOibDleq2Ur+QvMB0hTy5sEdQWoI0ZoC1AGzNAW4A2ZoC2AG3MAG0B2pgBwvHylr5qJbK0AXlLX1/ES2RpA/KWvr6Il8jS5XChS980bBHUFqDNuzdAeg0YAlaBSeG4XepAFWhLBZQ24DuwLRwzjZ9SgaQ/Ak/C8YLnkH4DqiQCPwvH7XIG7EoGlDagDewIxwzKu98FzABtAdpIGzABnJK9zK2T/ve2/vK68OXwN/LtACVgJeV6f3ld+HJ4n+QNyEod+JVyvb+8Lnw53AC+CsYLXl7bIqgtQBszQFuANmaAtgBtzADP+1pO/0MIIUK42loD73LwNaDh9L94y4mP+yXsSjJwhZcHJoKdy3kFSyRPvauzLJ1g3wl+Q3IgIdSvv1mYJDnQ0aSn70+IRLN9SYramgR4+l0WSY6maU9yUPtHhPNMo8AGcAjcKU3UbXcdLRvASMB5G8Zb5BnXzXEOk2MDhgAAAABJRU5ErkJggg=="/>
                                     </div>
 
                                     <div class="mx-5">
-                                        <h4 class="text-2xl font-semibold text-gray-700">215,542</h4>
-                                        <div class="text-gray-500">Available Products</div>
+                                        <h4 class="text-2xl font-semibold text-gray-700">542</h4>
+                                        <div class="text-gray-500">Farmonlar</div>
                                     </div>
                                 </div>
                             </div>
@@ -87,6 +72,474 @@
 
                     <div class="flex flex-col mt-8">
                         <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+                            <h5 class="font-medium mb-3 text-2xl">Farmonlar</h5>
+                            <div
+                                class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200">
+
+                                <table class="min-w-max w-full table-auto">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                                <th class="py-3 px-6 text-left">Nomi</th>
+                                <th class="py-3 px-6 text-left">Soni</th>
+                                <th class="py-3 px-6 text-center">Sanasi</th>
+                                <th class="py-3 px-6 text-center">Amallar</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-600 text-sm font-light">
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span class="font-medium">“RAQAMLI O‘ZBEKISTON — 2030” STRATEGIYASINI TASDIQLASH VA UNI SAMARALI AMALGA OSHIRISH CHORA-TADBIRLARI TO‘G‘RISIDA</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span>PF-283</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    Jan 21, 2020
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-gray-200 bg-gray-50 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span class="font-medium truncate">«Davlat ishtirokidagi korxonalarni isloh qilishni jadallashtirish hamda davlat aktivlarini xususiylashtirishga oid chora-tadbirlar to‘g‘risida»</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span>PF-283</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    Jan 21, 2020
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span class="font-medium truncate">«O‘zbekiston Respublikasi Korrupsiyaga qarshi kurashish agentligi faoliyatini tashkil etish to‘g‘risida»</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span>PF-283</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    Jan 21, 2020
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-gray-200 bg-gray-50 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span class="font-medium">«O‘zbekiston Respublikasida yoshlarga oid davlat siyosatini tubdan isloh qilish va yangi bosqichga olib chiqish chora-tadbirlari to‘g‘risida»gi</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span>PF-283</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    Jan 21, 2020
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-gray-200 bg-gray-50 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span class="font-medium truncate">“RAQAMLI O‘ZBEKISTON — 2030” STRATEGIYASINI TASDIQLASH VA UNI SAMARALI AMALGA OSHIRISH CHORA-TADBIRLARI TO‘G‘RISIDA</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span>PF-283</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    Jan 21, 2020
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col mt-8">
+                        <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+                              <h5 class="font-medium mb-3 text-2xl">Ilovalar</h5>
+                            <div
+                                class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200">
+
+
+                              <table class="min-w-max w-full table-auto">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                                <th class="py-3 px-6 text-left">Nomi</th>
+                                <th class="py-3 px-6 text-left">Soni</th>
+                                <th class="py-3 px-6 text-center">Sanasi</th>
+                                <th class="py-3 px-6 text-center">Status</th>
+                                <th class="py-3 px-6 text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-600 text-sm font-light">
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span class="truncate font-medium">5 ta (34, 35, 39, 40, 41-son maktablar) umumta’lim maktablarigacha 7,5 km optik tolali .....</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        3d
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex items-center justify-center">
+                                        25/05/2022
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="bg-purple-200 text-purple-600 py-1 px-3 rounded-full text-xs">Bajarilmoqda</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="border-b border-gray-200 bg-gray-50 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span class="font-medium">telekommunikatsiya xizmatlaridan foydalanishni tashkil etish.</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        6a
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex items-center justify-center">
+                                        25/05/2022
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="bg-green-200 text-green-600 py-1 px-3 rounded-full text-xs">Bajarildi</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span class="truncate font-medium">5 ta (34, 35, 39, 40, 41-son maktablar) umumta’lim maktablarigacha 7,5 km optik tolali .....</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        3d
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex items-center justify-center">
+                                        25/05/2022
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="bg-purple-200 text-purple-600 py-1 px-3 rounded-full text-xs">Bajarilmoqda</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="border-b border-gray-200 bg-gray-50 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span class="font-medium">telekommunikatsiya xizmatlaridan foydalanishni tashkil etish.</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        6a
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex items-center justify-center">
+                                        25/05/2022
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="bg-green-200 text-green-600 py-1 px-3 rounded-full text-xs">Bajarildi</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span class="truncate font-medium">5 ta (34, 35, 39, 40, 41-son maktablar) umumta’lim maktablarigacha 7,5 km optik tolali .....</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        3d
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex items-center justify-center">
+                                        25/05/2022
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="bg-purple-200 text-purple-600 py-1 px-3 rounded-full text-xs">Bajarilmoqda</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="border-b border-gray-200 bg-gray-50 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        <span class="font-medium">telekommunikatsiya xizmatlaridan foydalanishni tashkil etish.</span>
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <div class="flex items-center">
+                                        6a
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex items-center justify-center">
+                                        25/05/2022
+                                    </div>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="bg-green-200 text-green-600 py-1 px-3 rounded-full text-xs">Bajarildi</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <div class="flex item-center justify-center">
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+                  <div class="flex flex-col mt-8">
+                        <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+                            <h5 class="font-medium mb-3 text-2xl">Foydalanuvchilar</h5>
                             <div
                                 class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200">
                                 <table class="min-w-full">
